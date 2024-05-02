@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Courses_Completed = () => {
 
-    function truncateString(str, num) {
+    function truncateString(str: string, num: number) {
         if (str <= num)
         {
             return str
